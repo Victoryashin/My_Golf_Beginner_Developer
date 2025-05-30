@@ -1,0 +1,10 @@
+﻿.vs
+.vscode
+Library
+*.vsconfig
+*.csproj
+test_xlab.sln
+obj
+Logs
+UserSettings
+Temp
