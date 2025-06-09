@@ -21,6 +21,7 @@ namespace Golf
 
             GameEvents.onCollisionStone += OnGameOver;
             GameEvents.onStickHit += OnStickHit;
+            OnStickHit();
         }
 
         private void OnStickHit()
@@ -36,7 +37,7 @@ namespace Golf
 
         protected override void OnDisable()
         {
-            base.OnEnable();
+            base.OnDisable();
 
             GameEvents.onCollisionStone -= OnGameOver;
 
